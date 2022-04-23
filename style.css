@@ -109,8 +109,8 @@ a:not(.btn--remix):visited {
 
 body {
   font-family: HK Grotesk;
-  background-color: slategrey;
-  color: white;
+  background-color: navy;
+  color: White;
 }
 .hidden {
   display: none;
@@ -169,8 +169,8 @@ h1 {
 }
 
 button {
-  padding: 10px;
-  border-radius: 10px; 
+  padding: 11px;
+  border-radius: 11px; 
 }
 #gameButtonArea > button {
   width:200px;
