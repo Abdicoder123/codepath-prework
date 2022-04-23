@@ -22,9 +22,9 @@ The following optional features are implemented:
 [^] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 [^] Buttons use a pitch (frequency) other than the ones in the tutorial
 [^] More than 4 functional game buttons
-[ ] Playback speeds up on each turn
+[^] Playback speeds up on each turn
 [^] Computer picks a different pattern each time the game is played
-[ ] Player only loses after 3 mistakes (instead of on the first mistake)
+[^] Player only loses after 3 mistakes (instead of on the first mistake)
 [ ] Game button appearance change goes beyond color (e.g. add an image)
 [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 [ ] User has a limited amount of time to enter their guess on each turn
@@ -33,6 +33,10 @@ The following additional features are implemented:
 [ ] List anything else that you can get done to improve the app!
 Video Walkthrough (GIF)
 If you recorded multiple GIFs for all the implemented features, you can add them here: ![^]![](https://i.imgur.com/gnpbbsT.gif)
+
+[^]![](https://i.imgur.com/WsmHHzH.gif)
+
+
 
 Reflection Questions
 If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
@@ -51,7 +55,7 @@ Interview Recording URL Link
 [My 5-minute Interview Recording] https://www.loom.com/share/126518a769ba4965981c4dd53163c24d
 
 License
-Copyright [YOUR NAME]
+Copyright [Abdirahman Ali]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

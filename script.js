@@ -1,15 +1,18 @@
 // global constants
-const clueHoldTime = 1000; //how long to hold each clue's light/sound
+
 const cluePauseTime = 3000; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 //Global Variables
-var pattern = [];
+var pattern = [5,4,1,3,2,4,5];
+var clueHoldTime = 650; //how long to hold each clue's light/sound
 var progress = 0;
 var gamePlaying = false;
 var tonePlaying = false;
 var volume = 0.5;
 var guessCounter = 0;
+var strike = 0;
 
+//gets random order of sequence for buttons
 function getRandomPattern() {
   return Array.from({ length: 3 }, () => Math.floor(Math.random() * 5) + 1);
 }
@@ -18,6 +21,7 @@ function startGame() {
   //initialize game variables
   progress = 0;
   gamePlaying = true;
+  //calls the pattern randomizer within start game
   pattern = getRandomPattern();
   // swap the Start and Stop buttons
   document.getElementById("startBtn").classList.add("hidden");
@@ -89,6 +93,7 @@ function playSingleClue(btn) {
 function playClueSequence() {
   guessCounter = 0;
   let delay = nextClueWaitTime; //set delay to initial wait time
+  
   for (let i = 0; i <= progress; i++) {
     // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms");
@@ -96,6 +101,7 @@ function playClueSequence() {
     delay += clueHoldTime;
     delay += cluePauseTime;
   }
+  clueHoldTime -= 85
 }
 function loseGame() {
   stopGame();
@@ -123,6 +129,12 @@ function guess(btn) {
       guessCounter++;
     }
   } else {
-    loseGame();
+    strike++;
+     if (strike === 3) {
+      loseGame(); // You Lose game
+    } else {
+      alert("Attempts left:" + (3 - strike));
+    }
+
   }
 }
