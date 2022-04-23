@@ -52,7 +52,7 @@ If you had a few more hours to work on this project, what would you spend them d
 If I had a bit more time with this pre-work I would focus on the extra requirement that would wind down the pause time inbetween the clues so that it caused the user to speed up. That would have been amazing to try to figure out and work out. Because I know would have to be careful with the length of my pattern when the pausetime lessens and lessens as the clues keep coming. I also would need tobe aware of how much time I would be shaving off for each clue because it would still require that my game be playable with the pause time running down. I would also love to have given three chances instead of one to lose the game, I am sure implementing that would be a fun challenge.
 
 Interview Recording URL Link
-[My 5-minute Interview Recording] https://www.loom.com/share/126518a769ba4965981c4dd53163c24d
+[My 5-minute Interview Recording] https://www.loom.com/share/d73fda3e929e4f65873c0b32a364dc9a?sharedAppSource=personal_library
 
 License
 Copyright [Abdirahman Ali]
